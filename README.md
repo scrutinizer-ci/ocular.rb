@@ -64,10 +64,9 @@ SimpleCov.start
 ```
 
 ### Merging Coverage from Parallelized Runs
-There is nothing you need to change in your set-up. You can just make multiple code coverage
-submissions to Scrutinizer and make sure to 
+Scrutinizer supports merging coverage from parallelized runs natively. All you need to do is
 [adjust your .scrutinizer.yml](https://scrutinizer-ci.com/docs/tools/external-code-coverage/)
-to tell us how many you are going to send.
+to tell us how many submissions you are going to make; no further changes are necessary.
 
 ## Credits
 Parts of this code were inspired by the Ruby Coveralls implementation and were received under the MIT license.
